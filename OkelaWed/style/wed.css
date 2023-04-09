@@ -1,0 +1,235 @@
+div#layout{
+    border: 2px solid#a3a2a3;
+    margin: 5px auto;
+ 
+    height: 1230px;
+box-shadow: 3px 3px 3px #333;
+}
+
+
+div#headerleft{
+float: left;
+}
+div#headerleft img{
+    box-shadow: 2px 2px 2px #000000;
+}
+div#headerright{
+float: right;
+}
+
+
+div#headerleft ul.hbutton{
+text-align: right;
+margin-bottom: 37px;
+}
+div#headerright ul.hbutton li{
+display: inline;
+}
+
+
+div#header{
+padding: 10px;
+}
+div#headerright ul.hnav{
+text-align: right;
+
+}
+div#headerright ul.hnav li{
+display: inline;
+border-right: solid 2px #333;
+padding:  0 5px;
+}
+div#headerright ul.hnav li.last{
+border-right: none;
+padding-right: 0;
+}
+
+
+
+
+div#glonav{
+clear: both;
+
+}
+div#glonav ul{
+background: black;
+border: 2px solid #000;
+height: 22px;
+padding: 12px 0;
+}
+div#glonav ul li{
+border-right: solid 1px #171010;
+display: inline;
+padding-right: 80px; 
+   
+}
+div#glonav ul li.last{
+border-right: none;
+padding-right: 0;
+
+} 
+div#glonav ul li a {
+color: #FFF;
+flex-direction: none;
+}
+div#glonav ul li a:hover{
+color: yellow;
+}
+
+
+
+
+
+div#content{
+float: left;
+width: 820px;
+background-color: rgb(245, 212, 225);
+padding: 10px;
+}
+
+div#content div.content1 h2{
+border-bottom: 1px solid #666666;
+font-size: 120%;
+margin-bottom: 10px;
+}
+.content1 img{
+    border: 2px solid #000;
+    box-shadow: 2px 2px 2px #666666;
+}
+div#content div.content2 {
+float: right;
+width: 450px;
+margin-top: -180px;
+font-size: 20px;
+margin-right: 70px;
+}
+.content2 h3{
+    color: red;
+}
+div#content ul.thumblist li {
+display: inline;
+padding-right: 10px;
+}    
+div#content ul.thumblist{
+clear: both;
+background: #f9f8f8;
+border: 1px solid #ebeaea;
+padding: 10px;
+margin-bottom: 40px;
+border: 1px solid #000;
+box-shadow: 2px 2px 2px #d21b1b;
+}
+
+div#content h2{
+border-bottom: 1px solid #666666;
+font-size:120% ;
+}
+div#content dl.new{
+padding:10px 0 50px 20px;
+}
+div#content dl.new dd{
+border-bottom: 1px dotted #000;
+margin-bottom: 20px;
+padding-bottom: 5px;
+}
+div#content dl.new dd.last{
+border-bottom: none;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+div#content dl.new dd a{
+text-decoration: none;
+}
+div#content dl.new dd a:hover{
+text-decoration: underline;
+}
+div#content  a{
+text-align: center;
+}
+
+
+
+div#slidebar{
+float: right;
+width: 240px;
+background-color: rgb(128, 157, 226);
+}
+div#slidebar h2{
+border-bottom: 1px solid #666666;
+font-size: 120%;
+margin-bottom: 10px;
+}
+div#slidebar ul.linklist li{
+padding-left: 15px;
+margin-bottom: 3px;
+}
+div#slidebar ul.linklist{
+padding:0 0 30px 10px;
+list-style: none;
+}
+div#slidebar ul.linklist li{
+padding-bottom: 5px;
+}
+div#slidebar ul.banerlist   {
+list-style: none;    
+}
+
+
+
+
+div#footer{
+border: 1px solid#a3a2a3;     
+}
+div#footer div.fleft{
+float: left;
+width: 340px;
+margin-top: -30px;
+margin-left: 20px;
+}
+div#footer div.fright{
+float: right;
+width: 530px;
+margin-right: -800px;
+margin-top: -130px;
+}
+
+div#footer div.fright{
+margin-top: 5px;
+float: right;
+margin-top: -80px;
+}
+div#footer div.fleft{
+margin-top: 5px;
+float: left;
+margin-top: 20px;
+}
+
+div#footer div.fright ul{
+text-align: right;
+margin-bottom: 10px;
+}
+div#footer div.fright ul li{
+display: inline;
+border-right: solid 1px #333;
+padding: 0 5px;
+}
+
+div#footer div.fright ul li.last{
+border-right: none;
+padding-right: 0;
+}
+div#footer div.fright p{
+text-align: right;
+}
+div#footer{
+zoom: 1;
+border-top: solid 5px;
+margin-top: 900px;
+
+}
+
+
+
+
+
+
